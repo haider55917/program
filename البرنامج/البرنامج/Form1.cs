@@ -44,5 +44,10 @@ namespace البرنامج
         {
             this.Close();
         }
+
+        private void username_OnTextChange(object sender, EventArgs e)
+        {
+
+        }
     }
 }

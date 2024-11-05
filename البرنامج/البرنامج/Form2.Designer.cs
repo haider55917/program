@@ -33,13 +33,9 @@
             this.menu_panal1 = new System.Windows.Forms.Panel();
             this.menu = new System.Windows.Forms.Label();
             this.pic_menu = new System.Windows.Forms.PictureBox();
-            this.panel_but1 = new System.Windows.Forms.Panel();
             this.Edara = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel_but2 = new System.Windows.Forms.Panel();
             this.Sections = new System.Windows.Forms.Button();
-            this.panel_but3 = new System.Windows.Forms.Panel();
             this.setting = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel12 = new System.Windows.Forms.Panel();
@@ -72,14 +68,15 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.panal2_home = new System.Windows.Forms.FlowLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
             this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panal2_home = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.menu_panal1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_menu)).BeginInit();
-            this.panel_but1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.panel_but2.SuspendLayout();
-            this.panel_but3.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -96,8 +93,10 @@
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.panel15.SuspendLayout();
-            this.panal2_home.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
+            this.panal2_home.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel16.SuspendLayout();
             this.SuspendLayout();
             // 
             // menu_panal1
@@ -113,6 +112,7 @@
             // 
             this.menu.AutoSize = true;
             this.menu.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menu.ForeColor = System.Drawing.Color.White;
             this.menu.Location = new System.Drawing.Point(94, 15);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(56, 18);
@@ -131,50 +131,23 @@
             this.pic_menu.TabStop = false;
             this.pic_menu.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // panel_but1
-            // 
-            this.panel_but1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel_but1.Controls.Add(this.Edara);
-            this.panel_but1.Location = new System.Drawing.Point(3, 61);
-            this.panel_but1.Name = "panel_but1";
-            this.panel_but1.Size = new System.Drawing.Size(169, 39);
-            this.panel_but1.TabIndex = 1;
-            // 
             // Edara
             // 
-            this.Edara.BackColor = System.Drawing.Color.Silver;
+            this.Edara.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
+            this.Edara.FlatAppearance.BorderSize = 0;
             this.Edara.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Edara.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Edara.ForeColor = System.Drawing.Color.White;
             this.Edara.Image = ((System.Drawing.Image)(resources.GetObject("Edara.Image")));
             this.Edara.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Edara.Location = new System.Drawing.Point(-3, -6);
+            this.Edara.Location = new System.Drawing.Point(3, 61);
             this.Edara.Name = "Edara";
             this.Edara.Padding = new System.Windows.Forms.Padding(3);
-            this.Edara.Size = new System.Drawing.Size(178, 54);
+            this.Edara.Size = new System.Drawing.Size(167, 42);
             this.Edara.TabIndex = 2;
             this.Edara.Text = "المعاون الاداري";
             this.Edara.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Edara.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.panel1.Location = new System.Drawing.Point(890, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(171, 52);
-            this.panel1.TabIndex = 5;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(94, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 18);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "admin";
             // 
             // panel_but2
             // 
@@ -189,41 +162,35 @@
             // 
             // Sections
             // 
-            this.Sections.BackColor = System.Drawing.Color.Silver;
+            this.Sections.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.Sections.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Sections.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sections.ForeColor = System.Drawing.Color.White;
             this.Sections.Image = ((System.Drawing.Image)(resources.GetObject("Sections.Image")));
             this.Sections.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Sections.Location = new System.Drawing.Point(-7, -8);
+            this.Sections.Location = new System.Drawing.Point(-7, -3);
             this.Sections.Name = "Sections";
             this.Sections.Padding = new System.Windows.Forms.Padding(3);
-            this.Sections.Size = new System.Drawing.Size(189, 54);
+            this.Sections.Size = new System.Drawing.Size(172, 44);
             this.Sections.TabIndex = 2;
             this.Sections.Text = "الاقسام   ";
             this.Sections.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Sections.UseVisualStyleBackColor = false;
             this.Sections.Click += new System.EventHandler(this.Sections_Click);
             // 
-            // panel_but3
-            // 
-            this.panel_but3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel_but3.Controls.Add(this.setting);
-            this.panel_but3.Location = new System.Drawing.Point(237, 143);
-            this.panel_but3.Name = "panel_but3";
-            this.panel_but3.Size = new System.Drawing.Size(169, 39);
-            this.panel_but3.TabIndex = 3;
-            // 
             // setting
             // 
-            this.setting.BackColor = System.Drawing.Color.Silver;
+            this.setting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
+            this.setting.FlatAppearance.BorderSize = 0;
             this.setting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.setting.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.setting.ForeColor = System.Drawing.Color.White;
             this.setting.Image = ((System.Drawing.Image)(resources.GetObject("setting.Image")));
             this.setting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.setting.Location = new System.Drawing.Point(-3, -6);
+            this.setting.Location = new System.Drawing.Point(3, 159);
             this.setting.Name = "setting";
             this.setting.Padding = new System.Windows.Forms.Padding(3);
-            this.setting.Size = new System.Drawing.Size(178, 54);
+            this.setting.Size = new System.Drawing.Size(167, 42);
             this.setting.TabIndex = 2;
             this.setting.Text = "اعدادات";
             this.setting.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -252,7 +219,7 @@
             this.panel12.Controls.Add(this.panel7);
             this.panel12.Controls.Add(this.panel9);
             this.panel12.Controls.Add(this.panel3);
-            this.panel12.Location = new System.Drawing.Point(3, 106);
+            this.panel12.Location = new System.Drawing.Point(3, 109);
             this.panel12.MaximumSize = new System.Drawing.Size(181, 440);
             this.panel12.MinimumSize = new System.Drawing.Size(181, 44);
             this.panel12.Name = "panel12";
@@ -272,9 +239,10 @@
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.Color.Silver;
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button12.Location = new System.Drawing.Point(-11, -6);
             this.button12.Name = "button12";
@@ -296,9 +264,10 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Silver;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.Location = new System.Drawing.Point(-3, -6);
             this.button1.Name = "button1";
@@ -313,21 +282,22 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel6.Controls.Add(this.button5);
-            this.panel6.Location = new System.Drawing.Point(3, 45);
+            this.panel6.Location = new System.Drawing.Point(3, 44);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(159, 34);
             this.panel6.TabIndex = 11;
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.Silver;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.Location = new System.Drawing.Point(-10, -6);
+            this.button5.Location = new System.Drawing.Point(-10, -13);
             this.button5.Name = "button5";
             this.button5.Padding = new System.Windows.Forms.Padding(3);
-            this.button5.Size = new System.Drawing.Size(178, 40);
+            this.button5.Size = new System.Drawing.Size(178, 58);
             this.button5.TabIndex = 2;
             this.button5.Text = "قسم الادارة و الاسناد";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -344,9 +314,10 @@
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.Color.Silver;
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button10.Location = new System.Drawing.Point(-9, -6);
             this.button10.Name = "button10";
@@ -368,9 +339,10 @@
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.Silver;
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.White;
             this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button11.Location = new System.Drawing.Point(-11, -6);
             this.button11.Name = "button11";
@@ -392,9 +364,10 @@
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.Silver;
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button7.Location = new System.Drawing.Point(-9, -6);
             this.button7.Name = "button7";
@@ -416,9 +389,10 @@
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.Silver;
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button9.Location = new System.Drawing.Point(-9, -6);
             this.button9.Name = "button9";
@@ -440,9 +414,10 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Silver;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.Location = new System.Drawing.Point(-10, -6);
             this.button4.Name = "button4";
@@ -464,9 +439,10 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Silver;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(-10, -6);
             this.button3.Name = "button3";
@@ -488,9 +464,10 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.Silver;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.Location = new System.Drawing.Point(-14, -6);
             this.button6.Name = "button6";
@@ -512,9 +489,10 @@
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.Silver;
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.White;
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.Location = new System.Drawing.Point(-9, -6);
             this.button8.Name = "button8";
@@ -536,9 +514,10 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Silver;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(-3, -6);
             this.button2.Name = "button2";
@@ -561,10 +540,11 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Silver;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.flowLayoutPanel1.Controls.Add(this.menu_panal1);
-            this.flowLayoutPanel1.Controls.Add(this.panel_but1);
+            this.flowLayoutPanel1.Controls.Add(this.Edara);
             this.flowLayoutPanel1.Controls.Add(this.panel12);
+            this.flowLayoutPanel1.Controls.Add(this.setting);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(878, 55);
             this.flowLayoutPanel1.MaximumSize = new System.Drawing.Size(186, 900);
@@ -590,13 +570,39 @@
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.panel1);
+            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
+            this.panel15.Controls.Add(this.label1);
             this.panel15.Controls.Add(this.bunifuImageButton3);
             this.panel15.Controls.Add(this.bunifuImageButton1);
             this.panel15.Location = new System.Drawing.Point(0, 3);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(1061, 52);
             this.panel15.TabIndex = 9;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(978, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 18);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "admin";
+            // 
+            // bunifuImageButton3
+            // 
+            this.bunifuImageButton3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.Image")));
+            this.bunifuImageButton3.ImageActive = null;
+            this.bunifuImageButton3.Location = new System.Drawing.Point(52, 11);
+            this.bunifuImageButton3.Name = "bunifuImageButton3";
+            this.bunifuImageButton3.Size = new System.Drawing.Size(32, 32);
+            this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.bunifuImageButton3.TabIndex = 8;
+            this.bunifuImageButton3.TabStop = false;
+            this.bunifuImageButton3.Zoom = 10;
+            this.bunifuImageButton3.Click += new System.EventHandler(this.bunifuImageButton3_Click);
             // 
             // panal2_home
             // 
@@ -609,28 +615,47 @@
             this.panal2_home.Size = new System.Drawing.Size(1064, 55);
             this.panal2_home.TabIndex = 1;
             // 
-            // bunifuImageButton3
+            // pictureBox1
             // 
-            this.bunifuImageButton3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.Image")));
-            this.bunifuImageButton3.ImageActive = null;
-            this.bunifuImageButton3.Location = new System.Drawing.Point(52, 9);
-            this.bunifuImageButton3.Name = "bunifuImageButton3";
-            this.bunifuImageButton3.Size = new System.Drawing.Size(32, 32);
-            this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.bunifuImageButton3.TabIndex = 8;
-            this.bunifuImageButton3.TabStop = false;
-            this.bunifuImageButton3.Zoom = 10;
-            this.bunifuImageButton3.Click += new System.EventHandler(this.bunifuImageButton3_Click);
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 55);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(878, 626);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel16
+            // 
+            this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
+            this.panel16.Controls.Add(this.label2);
+            this.panel16.Location = new System.Drawing.Point(47, 57);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(777, 45);
+            this.panel16.TabIndex = 11;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("LBC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(324, 10);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(179, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "ومن يتق الله يجعل له مخرجا";
             // 
             // home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 681);
+            this.Controls.Add(this.panel16);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panal2_home);
-            this.Controls.Add(this.panel_but3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -639,11 +664,7 @@
             this.menu_panal1.ResumeLayout(false);
             this.menu_panal1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_menu)).EndInit();
-            this.panel_but1.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel_but2.ResumeLayout(false);
-            this.panel_but3.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -661,28 +682,26 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
-            this.panal2_home.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
+            this.panal2_home.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.Panel menu_panal1;
-        private System.Windows.Forms.Panel panel_but1;
         private System.Windows.Forms.Button Edara;
         private System.Windows.Forms.Panel panel_but2;
         private System.Windows.Forms.Button Sections;
-        private System.Windows.Forms.Panel panel_but3;
         private System.Windows.Forms.Button setting;
         private System.Windows.Forms.PictureBox pic_menu;
         private System.Windows.Forms.Label menu;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Button button12;
@@ -712,5 +731,10 @@
         private System.Windows.Forms.FlowLayoutPanel panal2_home;
         private System.Windows.Forms.Panel panel15;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel6;
     }
 }

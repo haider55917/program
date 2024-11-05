@@ -29,15 +29,36 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
-            this.picBox1 = new System.Windows.Forms.PictureBox();
             this.username = new Bunifu.Framework.UI.BunifuTextbox();
+            this.picBox1 = new System.Windows.Forms.PictureBox();
             this.pass = new Bunifu.Framework.UI.BunifuTextbox();
             this.Enter = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.Exit = new Bunifu.Framework.UI.BunifuTileButton();
+            bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // bunifuElipse2
+            // 
+            bunifuElipse2.ElipseRadius = 0;
+            bunifuElipse2.TargetControl = this.username;
+            // 
+            // username
+            // 
+            this.username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(160)))), ((int)(((byte)(122)))));
+            this.username.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("username.BackgroundImage")));
+            this.username.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.username.ForeColor = System.Drawing.Color.Black;
+            this.username.Icon = ((System.Drawing.Image)(resources.GetObject("username.Icon")));
+            this.username.Location = new System.Drawing.Point(197, 329);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(150, 32);
+            this.username.TabIndex = 1;
+            this.username.text = "";
+            this.username.OnTextChange += new System.EventHandler(this.username_OnTextChange);
             // 
             // picBox1
             // 
@@ -50,19 +71,6 @@
             this.picBox1.TabStop = false;
             this.picBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // username
-            // 
-            this.username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(160)))), ((int)(((byte)(122)))));
-            this.username.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("username.BackgroundImage")));
-            this.username.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.username.ForeColor = System.Drawing.Color.Black;
-            this.username.Icon = ((System.Drawing.Image)(resources.GetObject("username.Icon")));
-            this.username.Location = new System.Drawing.Point(207, 321);
-            this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(134, 32);
-            this.username.TabIndex = 1;
-            this.username.text = "";
-            // 
             // pass
             // 
             this.pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(160)))), ((int)(((byte)(122)))));
@@ -70,9 +78,9 @@
             this.pass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pass.ForeColor = System.Drawing.Color.Black;
             this.pass.Icon = ((System.Drawing.Image)(resources.GetObject("pass.Icon")));
-            this.pass.Location = new System.Drawing.Point(207, 364);
+            this.pass.Location = new System.Drawing.Point(192, 364);
             this.pass.Name = "pass";
-            this.pass.Size = new System.Drawing.Size(134, 32);
+            this.pass.Size = new System.Drawing.Size(159, 32);
             this.pass.TabIndex = 2;
             this.pass.text = "";
             // 
