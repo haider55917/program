@@ -13,7 +13,7 @@ namespace البرنامج
     public partial class home : Form
     {
         bool slid;
-        bool slid2;
+        bool slid3;
         public home()
         {
             InitializeComponent();
@@ -23,21 +23,28 @@ namespace البرنامج
         {
             if (slid)
             {
-                
-               flowLayoutPanel1.Width -= 10;
-                if (flowLayoutPanel1.Width == flowLayoutPanel1.MinimumSize.Width)
+
+                aksampanal.Width -= 20;
+                if (aksampanal.Width == aksampanal.MinimumSize.Width)
                 {
-                    panel12.AutoScroll = false;     // نكتب الكود هنا مال قفل البنل 12 عند سد الشريط
+                    slid3 = true;
+                    timer3.Stop();
+                }
 
 
+                flomenu.Width -= 10;
+                if (flomenu.Width == flomenu.MinimumSize.Width)
+                {
+                    //panel12.AutoScroll = false;     // نكتب الكود هنا مال قفل البنل 12 عند سد الشريط
                     slid = false;
                     timer1.Stop();
+
                 }
             }
             else
             {
-                flowLayoutPanel1.Width += 10;
-                if (flowLayoutPanel1.Width == flowLayoutPanel1.MaximumSize.Width)
+                flomenu.Width += 10;
+                if (flomenu.Width == flomenu.MaximumSize.Width)
 
                 {
                     slid = true;
@@ -51,26 +58,38 @@ namespace البرنامج
         {
             timer1.Start();
 
-            if (panel12.Height == 440)
-            {
-                timer2.Start();
-            }
+            //if (flowLayoutPanel1.Width < 50)
+            //{
+            //    timer3.Start();
+            //}
+            //else if (flowLayoutPanel1.Width > 50)
+            //{
+            //    timer3.Stop();
+            //}
 
         }
 
         private void Sections_Click(object sender, EventArgs e)
         {
-            if (flowLayoutPanel1.Width > 50)
+            timer3.Start();
+
+            if (flomenu.Width == 50)
             {
-                timer2.Start();
+                timer3.Stop();
             }
-           
 
         }
 
         private void setting_Click(object sender, EventArgs e)
         {
 
+
+           
+            pagesetting.PageVisible = true;
+
+            // تحديد "xtraTabPage2" كالتبويب النشط
+            xtraTabControl1.SelectedTabPage = pagesetting;
+            
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -78,40 +97,14 @@ namespace البرنامج
 
         }
 
-        private void timer2_Tick(object sender, EventArgs e)
-        {
-            if (slid2)
-            {
-                panel12.AutoScroll = true;
-                panel12.Height += 10;
-                if(panel12.Height == panel12.MaximumSize.Height)
-                   
-                {
-                    slid2 = false;
-                    timer2.Stop();
-                }
-            } else
-            {
-                panel12.AutoScroll = false;
-                panel12.Height -= 10;
-                if (panel12.Height == panel12.MinimumSize.Height)
-                {
-                    slid2 = true;
-                    timer2.Stop();
-                }
-            }
-        }
+
 
         private void home_Load(object sender, EventArgs e)
         {
-            panel12.AutoScroll = false;
 
         }
 
-        private void panel12_Click(object sender, EventArgs e)
-        {
-
-        }
+  
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
@@ -122,5 +115,83 @@ namespace البرنامج
         {
             WindowState = FormWindowState.Minimized;
         }
+
+        private void Edara_Click(object sender, EventArgs e)
+        {
+
+                pageadari.PageVisible = true;
+
+                // تحديد "xtraTabPage1" كالتبويب النشط
+                xtraTabControl1.SelectedTabPage = pageadari;
+            
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+
+            if (slid3)
+            {
+                aksampanal.Width += 10;
+                if (aksampanal.Width == aksampanal.MaximumSize.Width)
+
+                {
+                    slid3 = false;
+                    timer3.Stop();
+                }
+            }
+            else
+            {
+                aksampanal.Width -= 10;
+                if (aksampanal.Width == aksampanal.MinimumSize.Width)
+                {
+                    slid3 = true;
+                    timer3.Stop();
+                }
+            }
+
+        }
+
+        private void xtraTabPage1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+
+
+        private void xtraTabControl1_CloseButtonClick_1(object sender, EventArgs e)
+        {
+            DevExpress.XtraTab.ViewInfo.ClosePageButtonEventArgs closeArgs = e as DevExpress.XtraTab.ViewInfo.ClosePageButtonEventArgs;
+            DevExpress.XtraTab.XtraTabPage tabPage = closeArgs.Page as DevExpress.XtraTab.XtraTabPage;
+
+            // التحقق من أن التبويب ليس هو التبويب الرئيسي (إذا كنت تريد منع إغلاقه)
+            if (xtraTabControl1.TabPages.IndexOf(tabPage) != 0)
+            {
+                // إخفاء التبويب بدلاً من إزالته
+                tabPage.PageVisible = false;
+            }
+            else
+            {
+                // رسالة توضيحية إذا حاول المستخدم إغلاق التبويب الرئيسي
+                MessageBox.Show("لا يمكنك إغلاق الصفحة الرئيسية.");
+            }
+        }
+
+
+        private void home_Load_1(object sender, EventArgs e)
+        {
+            xtraTabControl1.Visible = true;       // إظهار "الرئيسية"
+            pageadari.PageVisible = false;      // إخفاء "المعاون الإداري"
+            pagesetting.PageVisible = false;      // إخفاء "الإعدادات"
+
+            // تعيين "الرئيسية" كتبيوبة نشطة
+            xtraTabControl1.SelectedTabPage = pageadari;
+        }
+
+        private void xtraTabPage2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
+   
+

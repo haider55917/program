@@ -53,19 +53,20 @@
             this.username.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.username.ForeColor = System.Drawing.Color.Black;
             this.username.Icon = ((System.Drawing.Image)(resources.GetObject("username.Icon")));
-            this.username.Location = new System.Drawing.Point(197, 329);
+            this.username.Location = new System.Drawing.Point(203, 332);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(150, 32);
+            this.username.Size = new System.Drawing.Size(143, 32);
             this.username.TabIndex = 1;
             this.username.text = "";
             this.username.OnTextChange += new System.EventHandler(this.username_OnTextChange);
             // 
             // picBox1
             // 
+            this.picBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(64)))), ((int)(((byte)(51)))));
             this.picBox1.Image = ((System.Drawing.Image)(resources.GetObject("picBox1.Image")));
-            this.picBox1.Location = new System.Drawing.Point(-96, -4);
+            this.picBox1.Location = new System.Drawing.Point(-100, -6);
             this.picBox1.Name = "picBox1";
-            this.picBox1.Size = new System.Drawing.Size(731, 559);
+            this.picBox1.Size = new System.Drawing.Size(745, 570);
             this.picBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBox1.TabIndex = 0;
             this.picBox1.TabStop = false;
@@ -78,11 +79,12 @@
             this.pass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pass.ForeColor = System.Drawing.Color.Black;
             this.pass.Icon = ((System.Drawing.Image)(resources.GetObject("pass.Icon")));
-            this.pass.Location = new System.Drawing.Point(192, 364);
+            this.pass.Location = new System.Drawing.Point(203, 367);
             this.pass.Name = "pass";
-            this.pass.Size = new System.Drawing.Size(159, 32);
+            this.pass.Size = new System.Drawing.Size(143, 32);
             this.pass.TabIndex = 2;
             this.pass.text = "";
+            this.pass.OnTextChange += new System.EventHandler(this.pass_OnTextChange);
             // 
             // Enter
             // 
@@ -91,21 +93,21 @@
             this.Enter.ActiveFillColor = System.Drawing.Color.SeaGreen;
             this.Enter.ActiveForecolor = System.Drawing.Color.White;
             this.Enter.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.Enter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Enter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(64)))), ((int)(((byte)(51)))));
             this.Enter.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Enter.BackgroundImage")));
             this.Enter.ButtonText = "الدخول";
             this.Enter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Enter.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Enter.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Enter.ForeColor = System.Drawing.Color.Black;
             this.Enter.IdleBorderThickness = 1;
             this.Enter.IdleCornerRadius = 20;
             this.Enter.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(118)))), ((int)(((byte)(75)))));
             this.Enter.IdleForecolor = System.Drawing.Color.Black;
             this.Enter.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.Enter.Location = new System.Drawing.Point(214, 399);
+            this.Enter.Location = new System.Drawing.Point(215, 404);
             this.Enter.Margin = new System.Windows.Forms.Padding(5);
             this.Enter.Name = "Enter";
-            this.Enter.Size = new System.Drawing.Size(114, 40);
+            this.Enter.Size = new System.Drawing.Size(114, 44);
             this.Enter.TabIndex = 3;
             this.Enter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Enter.Click += new System.EventHandler(this.Enter_Click);
@@ -141,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(64)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(553, 546);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.Enter);

@@ -45,6 +45,11 @@ namespace البرنامج
             this.Close();
         }
 
+        private void pass_OnTextChange(object sender, EventArgs e)
+        {
+
+        }
+
         private void username_OnTextChange(object sender, EventArgs e)
         {
 
