@@ -36,10 +36,10 @@
             this.btnedara = new System.Windows.Forms.Button();
             this.btnaksam = new System.Windows.Forms.Button();
             this.btnsetting = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.menutim = new System.Windows.Forms.Timer(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.flomenu = new System.Windows.Forms.FlowLayoutPanel();
-            this.aksampanal = new System.Windows.Forms.Panel();
+            this.depsidebar = new System.Windows.Forms.Panel();
             this.btnatsalat = new System.Windows.Forms.Button();
             this.btnamn = new System.Windows.Forms.Button();
             this.btnkuran = new System.Windows.Forms.Button();
@@ -52,8 +52,15 @@
             this.btntdreb = new System.Windows.Forms.Button();
             this.btnmalia = new System.Windows.Forms.Button();
             this.btnadara = new System.Windows.Forms.Button();
-            this.timer3 = new System.Windows.Forms.Timer(this.components);
-            this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
+            this.settingsidebar = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.deptim = new System.Windows.Forms.Timer(this.components);
+            this.mainTabControl = new DevExpress.XtraTab.XtraTabControl();
             this.users = new DevExpress.XtraTab.XtraTabPage();
             this.hekmapanal = new System.Windows.Forms.Panel();
             this.lebhekma = new System.Windows.Forms.Label();
@@ -61,23 +68,23 @@
             this.pageadari = new DevExpress.XtraTab.XtraTabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.pagesetting = new DevExpress.XtraTab.XtraTabPage();
-            this.label2 = new System.Windows.Forms.Label();
             this.hedpanal = new System.Windows.Forms.Panel();
             this.lebadmin = new System.Windows.Forms.Label();
             this.btnmin = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnclose = new Bunifu.Framework.UI.BunifuImageButton();
             this.homepanal1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.settingtim = new System.Windows.Forms.Timer(this.components);
             this.menupanal1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picmenu)).BeginInit();
             this.flomenu.SuspendLayout();
-            this.aksampanal.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
-            this.xtraTabControl1.SuspendLayout();
+            this.depsidebar.SuspendLayout();
+            this.settingsidebar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mainTabControl)).BeginInit();
+            this.mainTabControl.SuspendLayout();
             this.users.SuspendLayout();
             this.hekmapanal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pichome)).BeginInit();
             this.pageadari.SuspendLayout();
-            this.pagesetting.SuspendLayout();
             this.hedpanal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnmin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnclose)).BeginInit();
@@ -114,12 +121,13 @@
             this.picmenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picmenu.TabIndex = 4;
             this.picmenu.TabStop = false;
-            this.picmenu.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.picmenu.Click += new System.EventHandler(this.picmenu_Click);
             // 
             // btnedara
             // 
             this.btnedara.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnedara.FlatAppearance.BorderSize = 0;
+            this.btnedara.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btnedara.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnedara.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnedara.ForeColor = System.Drawing.Color.White;
@@ -139,6 +147,7 @@
             // 
             this.btnaksam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnaksam.FlatAppearance.BorderSize = 0;
+            this.btnaksam.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btnaksam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnaksam.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnaksam.ForeColor = System.Drawing.Color.White;
@@ -158,6 +167,7 @@
             // 
             this.btnsetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnsetting.FlatAppearance.BorderSize = 0;
+            this.btnsetting.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btnsetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsetting.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsetting.ForeColor = System.Drawing.Color.White;
@@ -173,10 +183,10 @@
             this.btnsetting.UseVisualStyleBackColor = false;
             this.btnsetting.Click += new System.EventHandler(this.setting_Click);
             // 
-            // timer1
+            // menutim
             // 
-            this.timer1.Interval = 10;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.menutim.Interval = 10;
+            this.menutim.Tick += new System.EventHandler(this.menutim_Tick);
             // 
             // bunifuElipse1
             // 
@@ -198,33 +208,34 @@
             this.flomenu.Size = new System.Drawing.Size(186, 681);
             this.flomenu.TabIndex = 8;
             // 
-            // aksampanal
+            // depsidebar
             // 
-            this.aksampanal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
-            this.aksampanal.Controls.Add(this.btnatsalat);
-            this.aksampanal.Controls.Add(this.btnamn);
-            this.aksampanal.Controls.Add(this.btnkuran);
-            this.aksampanal.Controls.Add(this.btndrasat);
-            this.aksampanal.Controls.Add(this.btntalim);
-            this.aksampanal.Controls.Add(this.btnelim);
-            this.aksampanal.Controls.Add(this.btntableg);
-            this.aksampanal.Controls.Add(this.btntadkek);
-            this.aksampanal.Controls.Add(this.btntakhtet);
-            this.aksampanal.Controls.Add(this.btntdreb);
-            this.aksampanal.Controls.Add(this.btnmalia);
-            this.aksampanal.Controls.Add(this.btnadara);
-            this.aksampanal.Dock = System.Windows.Forms.DockStyle.Right;
-            this.aksampanal.Location = new System.Drawing.Point(878, 55);
-            this.aksampanal.MaximumSize = new System.Drawing.Size(225, 626);
-            this.aksampanal.MinimumSize = new System.Drawing.Size(0, 626);
-            this.aksampanal.Name = "aksampanal";
-            this.aksampanal.Size = new System.Drawing.Size(0, 626);
-            this.aksampanal.TabIndex = 11;
+            this.depsidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            this.depsidebar.Controls.Add(this.btnatsalat);
+            this.depsidebar.Controls.Add(this.btnamn);
+            this.depsidebar.Controls.Add(this.btnkuran);
+            this.depsidebar.Controls.Add(this.btndrasat);
+            this.depsidebar.Controls.Add(this.btntalim);
+            this.depsidebar.Controls.Add(this.btnelim);
+            this.depsidebar.Controls.Add(this.btntableg);
+            this.depsidebar.Controls.Add(this.btntadkek);
+            this.depsidebar.Controls.Add(this.btntakhtet);
+            this.depsidebar.Controls.Add(this.btntdreb);
+            this.depsidebar.Controls.Add(this.btnmalia);
+            this.depsidebar.Controls.Add(this.btnadara);
+            this.depsidebar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.depsidebar.Location = new System.Drawing.Point(878, 55);
+            this.depsidebar.MaximumSize = new System.Drawing.Size(225, 626);
+            this.depsidebar.MinimumSize = new System.Drawing.Size(0, 626);
+            this.depsidebar.Name = "depsidebar";
+            this.depsidebar.Size = new System.Drawing.Size(0, 626);
+            this.depsidebar.TabIndex = 11;
             // 
             // btnatsalat
             // 
             this.btnatsalat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnatsalat.FlatAppearance.BorderSize = 0;
+            this.btnatsalat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btnatsalat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnatsalat.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnatsalat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -239,6 +250,7 @@
             // 
             this.btnamn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnamn.FlatAppearance.BorderSize = 0;
+            this.btnamn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btnamn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnamn.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnamn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -253,6 +265,7 @@
             // 
             this.btnkuran.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnkuran.FlatAppearance.BorderSize = 0;
+            this.btnkuran.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btnkuran.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnkuran.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnkuran.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -267,6 +280,7 @@
             // 
             this.btndrasat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btndrasat.FlatAppearance.BorderSize = 0;
+            this.btndrasat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btndrasat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btndrasat.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndrasat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -281,6 +295,7 @@
             // 
             this.btntalim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btntalim.FlatAppearance.BorderSize = 0;
+            this.btntalim.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btntalim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntalim.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntalim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -295,6 +310,7 @@
             // 
             this.btnelim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnelim.FlatAppearance.BorderSize = 0;
+            this.btnelim.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btnelim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnelim.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnelim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -309,6 +325,7 @@
             // 
             this.btntableg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btntableg.FlatAppearance.BorderSize = 0;
+            this.btntableg.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btntableg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntableg.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntableg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -323,6 +340,7 @@
             // 
             this.btntadkek.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btntadkek.FlatAppearance.BorderSize = 0;
+            this.btntadkek.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btntadkek.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntadkek.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntadkek.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -337,6 +355,7 @@
             // 
             this.btntakhtet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btntakhtet.FlatAppearance.BorderSize = 0;
+            this.btntakhtet.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btntakhtet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntakhtet.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntakhtet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -351,6 +370,7 @@
             // 
             this.btntdreb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btntdreb.FlatAppearance.BorderSize = 0;
+            this.btntdreb.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btntdreb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntdreb.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntdreb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -365,6 +385,7 @@
             // 
             this.btnmalia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnmalia.FlatAppearance.BorderSize = 0;
+            this.btnmalia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btnmalia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmalia.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmalia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -379,6 +400,7 @@
             // 
             this.btnadara.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnadara.FlatAppearance.BorderSize = 0;
+            this.btnadara.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
             this.btnadara.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnadara.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnadara.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -389,46 +411,153 @@
             this.btnadara.Text = "قسم الادارة و الاسناد";
             this.btnadara.UseVisualStyleBackColor = false;
             // 
-            // timer3
+            // settingsidebar
             // 
-            this.timer3.Interval = 5;
-            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            this.settingsidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            this.settingsidebar.Controls.Add(this.button6);
+            this.settingsidebar.Controls.Add(this.button5);
+            this.settingsidebar.Controls.Add(this.button4);
+            this.settingsidebar.Controls.Add(this.button3);
+            this.settingsidebar.Controls.Add(this.button2);
+            this.settingsidebar.Controls.Add(this.button1);
+            this.settingsidebar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.settingsidebar.Location = new System.Drawing.Point(878, 55);
+            this.settingsidebar.MaximumSize = new System.Drawing.Size(225, 626);
+            this.settingsidebar.MinimumSize = new System.Drawing.Size(0, 601);
+            this.settingsidebar.Name = "settingsidebar";
+            this.settingsidebar.Size = new System.Drawing.Size(0, 626);
+            this.settingsidebar.TabIndex = 0;
             // 
-            // xtraTabControl1
+            // button6
             // 
-            this.xtraTabControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
-            this.xtraTabControl1.Appearance.BorderColor = System.Drawing.Color.White;
-            this.xtraTabControl1.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.xtraTabControl1.Appearance.Options.UseBackColor = true;
-            this.xtraTabControl1.Appearance.Options.UseBorderColor = true;
-            this.xtraTabControl1.Appearance.Options.UseForeColor = true;
-            this.xtraTabControl1.AppearancePage.Header.BackColor = System.Drawing.Color.LightGreen;
-            this.xtraTabControl1.AppearancePage.Header.Options.UseBackColor = true;
-            this.xtraTabControl1.AppearancePage.HeaderActive.BackColor = System.Drawing.Color.LightGreen;
-            this.xtraTabControl1.AppearancePage.HeaderActive.Options.UseBackColor = true;
-            this.xtraTabControl1.AppearancePage.HeaderDisabled.BackColor = System.Drawing.Color.White;
-            this.xtraTabControl1.AppearancePage.HeaderDisabled.Options.UseBackColor = true;
-            this.xtraTabControl1.AppearancePage.HeaderHotTracked.BackColor = System.Drawing.Color.White;
-            this.xtraTabControl1.AppearancePage.HeaderHotTracked.Options.UseBackColor = true;
-            this.xtraTabControl1.AppearancePage.PageClient.BackColor = System.Drawing.Color.White;
-            this.xtraTabControl1.AppearancePage.PageClient.Options.UseBackColor = true;
-            this.xtraTabControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.xtraTabControl1.BorderStylePage = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.xtraTabControl1.ClosePageButtonShowMode = DevExpress.XtraTab.ClosePageButtonShowMode.InAllTabPagesAndTabControlHeader;
-            this.xtraTabControl1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.xtraTabControl1.Location = new System.Drawing.Point(0, 55);
-            this.xtraTabControl1.MultiLine = DevExpress.Utils.DefaultBoolean.False;
-            this.xtraTabControl1.Name = "xtraTabControl1";
-            this.xtraTabControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.xtraTabControl1.SelectedTabPage = this.users;
-            this.xtraTabControl1.Size = new System.Drawing.Size(878, 626);
-            this.xtraTabControl1.TabIndex = 12;
-            this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button6.Location = new System.Drawing.Point(113, 160);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(107, 53);
+            this.button6.TabIndex = 5;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button5.Location = new System.Drawing.Point(3, 160);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(107, 53);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button4.Location = new System.Drawing.Point(113, 63);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(107, 53);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button3.Location = new System.Drawing.Point(3, 63);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(107, 53);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button2.Location = new System.Drawing.Point(113, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(107, 53);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button1.Location = new System.Drawing.Point(3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(107, 53);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // deptim
+            // 
+            this.deptim.Interval = 1;
+            this.deptim.Tick += new System.EventHandler(this.deptim_Tick);
+            // 
+            // mainTabControl
+            // 
+            this.mainTabControl.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
+            this.mainTabControl.Appearance.BorderColor = System.Drawing.Color.White;
+            this.mainTabControl.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.mainTabControl.Appearance.Options.UseBackColor = true;
+            this.mainTabControl.Appearance.Options.UseBorderColor = true;
+            this.mainTabControl.Appearance.Options.UseForeColor = true;
+            this.mainTabControl.AppearancePage.Header.BackColor = System.Drawing.Color.LightGreen;
+            this.mainTabControl.AppearancePage.Header.Options.UseBackColor = true;
+            this.mainTabControl.AppearancePage.HeaderActive.BackColor = System.Drawing.Color.LightGreen;
+            this.mainTabControl.AppearancePage.HeaderActive.Options.UseBackColor = true;
+            this.mainTabControl.AppearancePage.HeaderDisabled.BackColor = System.Drawing.Color.White;
+            this.mainTabControl.AppearancePage.HeaderDisabled.Options.UseBackColor = true;
+            this.mainTabControl.AppearancePage.HeaderHotTracked.BackColor = System.Drawing.Color.White;
+            this.mainTabControl.AppearancePage.HeaderHotTracked.Options.UseBackColor = true;
+            this.mainTabControl.AppearancePage.PageClient.BackColor = System.Drawing.Color.White;
+            this.mainTabControl.AppearancePage.PageClient.Options.UseBackColor = true;
+            this.mainTabControl.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.mainTabControl.BorderStylePage = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.mainTabControl.ClosePageButtonShowMode = DevExpress.XtraTab.ClosePageButtonShowMode.InAllTabPagesAndTabControlHeader;
+            this.mainTabControl.Cursor = System.Windows.Forms.Cursors.Default;
+            this.mainTabControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainTabControl.Location = new System.Drawing.Point(0, 55);
+            this.mainTabControl.MultiLine = DevExpress.Utils.DefaultBoolean.False;
+            this.mainTabControl.Name = "mainTabControl";
+            this.mainTabControl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.mainTabControl.SelectedTabPage = this.users;
+            this.mainTabControl.Size = new System.Drawing.Size(878, 626);
+            this.mainTabControl.TabIndex = 12;
+            this.mainTabControl.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.users,
             this.pageadari,
             this.pagesetting});
-            this.xtraTabControl1.CloseButtonClick += new System.EventHandler(this.xtraTabControl1_CloseButtonClick_1);
+            this.mainTabControl.CloseButtonClick += new System.EventHandler(this.menuTabControl_CloseButtonClick);
             // 
             // users
             // 
@@ -499,20 +628,9 @@
             // 
             // pagesetting
             // 
-            this.pagesetting.Controls.Add(this.label2);
             this.pagesetting.Name = "pagesetting";
             this.pagesetting.Size = new System.Drawing.Size(876, 601);
-            this.pagesetting.Text = "الاعدادات";
-            this.pagesetting.Paint += new System.Windows.Forms.PaintEventHandler(this.xtraTabPage2_Paint);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(359, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "الاعدادت";
+            this.pagesetting.Text = "الاعدادت";
             // 
             // hedpanal
             // 
@@ -548,7 +666,7 @@
             this.btnmin.TabIndex = 8;
             this.btnmin.TabStop = false;
             this.btnmin.Zoom = 10;
-            this.btnmin.Click += new System.EventHandler(this.bunifuImageButton3_Click);
+            this.btnmin.Click += new System.EventHandler(this.btnmin_Click);
             // 
             // btnclose
             // 
@@ -563,7 +681,7 @@
             this.btnclose.TabIndex = 6;
             this.btnclose.TabStop = false;
             this.btnclose.Zoom = 10;
-            this.btnclose.Click += new System.EventHandler(this.bunifuImageButton1_Click);
+            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
             // 
             // homepanal1
             // 
@@ -576,35 +694,40 @@
             this.homepanal1.Size = new System.Drawing.Size(1064, 55);
             this.homepanal1.TabIndex = 1;
             // 
+            // settingtim
+            // 
+            this.settingtim.Interval = 1;
+            this.settingtim.Tick += new System.EventHandler(this.timrtsetting);
+            // 
             // home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 681);
-            this.Controls.Add(this.xtraTabControl1);
-            this.Controls.Add(this.aksampanal);
+            this.Controls.Add(this.mainTabControl);
+            this.Controls.Add(this.settingsidebar);
+            this.Controls.Add(this.depsidebar);
             this.Controls.Add(this.flomenu);
             this.Controls.Add(this.homepanal1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.home_Load_1);
+            this.Load += new System.EventHandler(this.home_Load);
             this.menupanal1.ResumeLayout(false);
             this.menupanal1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picmenu)).EndInit();
             this.flomenu.ResumeLayout(false);
-            this.aksampanal.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
-            this.xtraTabControl1.ResumeLayout(false);
+            this.depsidebar.ResumeLayout(false);
+            this.settingsidebar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.mainTabControl)).EndInit();
+            this.mainTabControl.ResumeLayout(false);
             this.users.ResumeLayout(false);
             this.hekmapanal.ResumeLayout(false);
             this.hekmapanal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pichome)).EndInit();
             this.pageadari.ResumeLayout(false);
             this.pageadari.PerformLayout();
-            this.pagesetting.ResumeLayout(false);
-            this.pagesetting.PerformLayout();
             this.hedpanal.ResumeLayout(false);
             this.hedpanal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnmin)).EndInit();
@@ -621,11 +744,11 @@
         private System.Windows.Forms.Button btnsetting;
         private System.Windows.Forms.PictureBox picmenu;
         private System.Windows.Forms.Label labmenu;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer menutim;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.FlowLayoutPanel flomenu;
-        private System.Windows.Forms.Panel aksampanal;
-        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Panel depsidebar;
+        private System.Windows.Forms.Timer deptim;
         private System.Windows.Forms.Button btnadara;
         private System.Windows.Forms.Button btnmalia;
         private System.Windows.Forms.Button btnatsalat;
@@ -638,19 +761,26 @@
         private System.Windows.Forms.Button btntadkek;
         private System.Windows.Forms.Button btntakhtet;
         private System.Windows.Forms.Button btntdreb;
-        private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
+        private DevExpress.XtraTab.XtraTabControl mainTabControl;
         private DevExpress.XtraTab.XtraTabPage users;
         private System.Windows.Forms.Panel hekmapanal;
         private System.Windows.Forms.Label lebhekma;
         private DevExpress.XtraTab.XtraTabPage pageadari;
-        private DevExpress.XtraTab.XtraTabPage pagesetting;
         private System.Windows.Forms.FlowLayoutPanel homepanal1;
         private System.Windows.Forms.Panel hedpanal;
         private System.Windows.Forms.Label lebadmin;
         private Bunifu.Framework.UI.BunifuImageButton btnmin;
         private Bunifu.Framework.UI.BunifuImageButton btnclose;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pichome;
+        private DevExpress.XtraTab.XtraTabPage pagesetting;
+        private System.Windows.Forms.Panel settingsidebar;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Timer settingtim;
     }
 }

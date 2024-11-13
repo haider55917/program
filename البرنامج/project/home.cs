@@ -12,189 +12,207 @@ namespace project
 {
     public partial class home : Form
     {
-        bool slid;
-        bool slid3;
+        // المتغيرات الخاصة بحالة القائمة الجانبية
+        bool slid;          // متغير لتحديد إذا كانت القائمة الجانبية مغلقة أو مفتوحة
+        bool sidebarss;      // حالة القائمة الخاصة بالإعدادات
+        bool sidebardd;      // حالة القائمة الخاصة بالأقسام
+
         public home()
         {
-            InitializeComponent();
+            InitializeComponent(); // استدعاء المكونات
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (slid)
-            {
-
-                aksampanal.Width -= 20;
-                if (aksampanal.Width == aksampanal.MinimumSize.Width)
-                {
-                    slid3 = true;
-                    timer3.Stop();
-                }
-
-
-                flomenu.Width -= 10;
-                if (flomenu.Width == flomenu.MinimumSize.Width)
-                {
-                    //panel12.AutoScroll = false;     // نكتب الكود هنا مال قفل البنل 12 عند سد الشريط
-                    slid = false;
-                    timer1.Stop();
-
-                }
-            }
-            else
-            {
-                flomenu.Width += 10;
-                if (flomenu.Width == flomenu.MaximumSize.Width)
-
-                {
-                    slid = true;
-                    timer1.Stop();
-                }
-
-            }
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            timer1.Start();
-
-
-        }
-
-        private void Sections_Click(object sender, EventArgs e)
-        {
-            timer3.Start();
-
-            if (flomenu.Width == 50)
-            {
-                timer3.Stop();
-            }
-
-        }
-
-        private void setting_Click(object sender, EventArgs e)
-        {
-
-
-           
-            pagesetting.PageVisible = true;
-
-            // تحديد "xtraTabPage2" كالتبويب النشط
-            xtraTabControl1.SelectedTabPage = pagesetting;
-            
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-
-
+        // تحميل نافذة "الرئيسية" عند فتح التطبيق
         private void home_Load(object sender, EventArgs e)
         {
+            mainTabControl.Visible = true;       // إظهار "الرئيسية"
+            pageadari.PageVisible = false;       // إخفاء "المعاون الإداري"
+            pagesetting.PageVisible = false;     // إخفاء "الإعدادات"
 
+            // تعيين "الرئيسية" كالتبويب النشط
+            mainTabControl.SelectedTabPage = pageadari;
         }
 
-  
-
-        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        // غلق النافذة عند الضغط على زر الإغلاق
+        private void btnclose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void bunifuImageButton3_Click(object sender, EventArgs e)
+        // تصغير النافذة عند الضغط على زر التصغير
+        private void btnmin_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
         }
 
-        private void Edara_Click(object sender, EventArgs e)
+        // التعامل مع فتح قائمة "الأقسام"
+        private void Sections_Click(object sender, EventArgs e)
         {
+            deptim.Start();   // بدء التايمر لفتح قائمة الأقسام
 
-                pageadari.PageVisible = true;
-
-                // تحديد "xtraTabPage1" كالتبويب النشط
-                xtraTabControl1.SelectedTabPage = pageadari;
-            
+            // إيقاف التايمر إذا كانت القائمة الجانبية مغلقة
+            if (flomenu.Width == 50)
+            {
+                deptim.Stop();
+            }
         }
 
-        private void timer3_Tick(object sender, EventArgs e)
+        // التعامل مع فتح قائمة "الإعدادات"
+        private void setting_Click(object sender, EventArgs e)
         {
+            settingtim.Start(); // بدء التايمر لفتح قائمة الإعدادات
 
-            if (slid3)
+            // إيقاف التايمر إذا كانت القائمة الجانبية مغلقة
+            if (flomenu.Width == 50)
             {
-                aksampanal.Width += 10;
-                if (aksampanal.Width == aksampanal.MaximumSize.Width)
+                settingtim.Stop();
+            }
+        }
 
+        // التعامل مع فتح "المعاون الإداري"
+        private void Edara_Click(object sender, EventArgs e)
+        {
+            pageadari.PageVisible = true; // إظهار صفحة "المعاون الإداري"
+            mainTabControl.SelectedTabPage = pageadari; // تعيينها كالتبويب النشط
+        }
+
+        // التعامل مع إغلاق أو فتح القائمة الجانبية عند الضغط على أيقونة "المنزل"
+        private void pichome_Click(object sender, EventArgs e)
+        {
+            if (!sidebardd) // إذا كانت النافذة مفتوحة، نبدأ عملية الإغلاق
+            {
+                deptim.Start(); // بدء عملية الإغلاق
+            }
+        }
+
+        // التحكم في عرض قائمة الإعدادات وقائمة الأقسام
+        private void timrtsetting(object sender, EventArgs e)
+        {
+            if (sidebardd)
+            {
+                // تقليص عرض قائمة "الأقسام"
+                depsidebar.Width -= 20;
+                if (depsidebar.Width == depsidebar.MinimumSize.Width)
                 {
-                    slid3 = false;
-                    timer3.Stop();
+                    sidebarss = true;
+                    deptim.Stop();
+                }
+
+                // توسيع عرض قائمة "الإعدادات"
+                settingsidebar.Width += 20;
+                if (settingsidebar.Width == settingsidebar.MaximumSize.Width)
+                {
+                    sidebardd = false;
+                    settingtim.Stop();
                 }
             }
             else
             {
-                aksampanal.Width -= 10;
-                if (aksampanal.Width == aksampanal.MinimumSize.Width)
+                // تقليص عرض قائمة "الإعدادات"
+                settingsidebar.Width -= 20;
+                if (settingsidebar.Width == settingsidebar.MinimumSize.Width)
                 {
-                    slid3 = true;
-                    timer3.Stop();
+                    sidebardd = true;
+                    settingtim.Stop();
                 }
             }
-
         }
 
-        private void xtraTabPage1_Paint(object sender, PaintEventArgs e)
+        // التحكم في عرض قائمة "الأقسام" عند تشغيل التايمر الخاص بها
+        private void deptim_Tick(object sender, EventArgs e)
         {
+            if (sidebardd)
+            {
+                // تقليص عرض قائمة "الإعدادات"
+                settingsidebar.Width -= 20;
+                if (settingsidebar.Width == settingsidebar.MinimumSize.Width)
+                {
+                    sidebarss = true;
+                    settingtim.Stop();
+                }
 
+                // توسيع عرض قائمة "الأقسام"
+                depsidebar.Width += 20;
+                if (depsidebar.Width == depsidebar.MaximumSize.Width)
+                {
+                    sidebardd = false;
+                    deptim.Stop();
+                }
+            }
+            else
+            {
+                // تقليص عرض قائمة "الأقسام"
+                depsidebar.Width -= 20;
+                if (depsidebar.Width == depsidebar.MinimumSize.Width)
+                {
+                    sidebardd = true;
+                    deptim.Stop();
+                }
+            }
         }
 
+        // التحكم في إظهار أو إخفاء القائمة الجانبية بالكامل
+        private void menutim_Tick(object sender, EventArgs e)
+        {
+            if (slid)
+            {
+                // إخفاء "الإعدادات" عند غلق القائمة الجانبية
+                settingsidebar.Width -= 20;
+                if (settingsidebar.Width == settingsidebar.MinimumSize.Width)
+                {
+                    sidebarss = true;
+                    settingtim.Stop();
+                }
 
+                // إخفاء "الأقسام" عند غلق القائمة الجانبية
+                depsidebar.Width -= 20;
+                if (depsidebar.Width == depsidebar.MinimumSize.Width)
+                {
+                    sidebarss = true;
+                    deptim.Stop();
+                }
 
-        private void xtraTabControl1_CloseButtonClick_1(object sender, EventArgs e)
+                // غلق القائمة الجانبية بالكامل
+                flomenu.Width -= 10;
+                if (flomenu.Width == flomenu.MinimumSize.Width)
+                {
+                    slid = false;
+                    menutim.Stop();
+                }
+            }
+            else   // فتح القائمة الجانبية بالكامل
+            {
+                flomenu.Width += 10;
+                if (flomenu.Width == flomenu.MaximumSize.Width)
+                {
+                    slid = true;
+                    menutim.Stop();
+                }
+            }
+        }
+
+        // التعامل مع إغلاق التبويبات عند الضغط على زر الإغلاق في التبويب
+        private void menuTabControl_CloseButtonClick(object sender, EventArgs e)
         {
             DevExpress.XtraTab.ViewInfo.ClosePageButtonEventArgs closeArgs = e as DevExpress.XtraTab.ViewInfo.ClosePageButtonEventArgs;
             DevExpress.XtraTab.XtraTabPage tabPage = closeArgs.Page as DevExpress.XtraTab.XtraTabPage;
 
-            // التحقق من أن التبويب ليس هو التبويب الرئيسي (إذا كنت تريد منع إغلاقه)
-            if (xtraTabControl1.TabPages.IndexOf(tabPage) != 0)
+            // التأكد من أن المستخدم لا يحاول إغلاق التبويب الرئيسي
+            if (mainTabControl.TabPages.IndexOf(tabPage) != 0)
             {
-                // إخفاء التبويب بدلاً من إزالته
-                tabPage.PageVisible = false;
+                tabPage.PageVisible = false; // إخفاء التبويب بدلاً من إغلاقه
             }
             else
             {
-                // رسالة توضيحية إذا حاول المستخدم إغلاق التبويب الرئيسي
+                // إظهار رسالة توضيحية عند محاولة إغلاق التبويب الرئيسي
                 MessageBox.Show("لا يمكنك إغلاق الصفحة الرئيسية.");
             }
         }
 
-
-        private void home_Load_1(object sender, EventArgs e)
+        // التعامل مع فتح أو غلق القائمة الجانبية عند الضغط على أيقونة "القائمة"
+        private void picmenu_Click(object sender, EventArgs e)
         {
-            xtraTabControl1.Visible = true;       // إظهار "الرئيسية"
-            pageadari.PageVisible = false;      // إخفاء "المعاون الإداري"
-            pagesetting.PageVisible = false;      // إخفاء "الإعدادات"
-
-            // تعيين "الرئيسية" كتبيوبة نشطة
-            xtraTabControl1.SelectedTabPage = pageadari;
-        }
-
-        private void xtraTabPage2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-      
-
-
-        private void pichome_Click(object sender, EventArgs e)
-        {
-            if (!slid3) // إذا كانت النافذة مفتوحة فقط، نبدأ عملية الإغلاق
-            {
-                timer3.Start(); // بدء عملية الإغلاق
-            }
+            menutim.Start();    // تشغيل التايمر لفتح أو غلق القائمة الجانبية
         }
     }
 }
-   
-

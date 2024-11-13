@@ -54,8 +54,6 @@ C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\البر�
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\البرنامج\obj\Debug\project.exe
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\البرنامج\obj\Debug\project.pdb
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\project.exe.config
-C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.exe
-C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.pdb
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\project.exe
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\project.pdb
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
@@ -102,9 +100,10 @@ C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\b
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
-C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.login.resources
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.home.resources
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.Form3.resources
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.Properties.Resources.resources
 C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.exe
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.pdb
