@@ -39,6 +39,7 @@
             this.menutim = new System.Windows.Forms.Timer(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.flomenu = new System.Windows.Forms.FlowLayoutPanel();
+            this.button7 = new System.Windows.Forms.Button();
             this.depsidebar = new System.Windows.Forms.Panel();
             this.btnatsalat = new System.Windows.Forms.Button();
             this.btnamn = new System.Windows.Forms.Button();
@@ -52,22 +53,23 @@
             this.btntdreb = new System.Windows.Forms.Button();
             this.btnmalia = new System.Windows.Forms.Button();
             this.btnadara = new System.Windows.Forms.Button();
-            this.settingsidebar = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.deptim = new System.Windows.Forms.Timer(this.components);
             this.mainTabControl = new DevExpress.XtraTab.XtraTabControl();
             this.users = new DevExpress.XtraTab.XtraTabPage();
-            this.hekmapanal = new System.Windows.Forms.Panel();
-            this.lebhekma = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.settingsidebar = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.pichome = new System.Windows.Forms.PictureBox();
             this.pageadari = new DevExpress.XtraTab.XtraTabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.pagesetting = new DevExpress.XtraTab.XtraTabPage();
+            this.hekmapanal = new System.Windows.Forms.Panel();
+            this.lebhekma = new System.Windows.Forms.Label();
             this.hedpanal = new System.Windows.Forms.Panel();
             this.lebadmin = new System.Windows.Forms.Label();
             this.btnmin = new Bunifu.Framework.UI.BunifuImageButton();
@@ -78,13 +80,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.picmenu)).BeginInit();
             this.flomenu.SuspendLayout();
             this.depsidebar.SuspendLayout();
-            this.settingsidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mainTabControl)).BeginInit();
             this.mainTabControl.SuspendLayout();
             this.users.SuspendLayout();
-            this.hekmapanal.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.settingsidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pichome)).BeginInit();
             this.pageadari.SuspendLayout();
+            this.hekmapanal.SuspendLayout();
             this.hedpanal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnmin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnclose)).BeginInit();
@@ -200,13 +203,32 @@
             this.flomenu.Controls.Add(this.btnedara);
             this.flomenu.Controls.Add(this.btnaksam);
             this.flomenu.Controls.Add(this.btnsetting);
+            this.flomenu.Controls.Add(this.button7);
             this.flomenu.Dock = System.Windows.Forms.DockStyle.Right;
-            this.flomenu.Location = new System.Drawing.Point(878, 55);
-            this.flomenu.MaximumSize = new System.Drawing.Size(186, 681);
-            this.flomenu.MinimumSize = new System.Drawing.Size(50, 681);
+            this.flomenu.Location = new System.Drawing.Point(881, 55);
             this.flomenu.Name = "flomenu";
-            this.flomenu.Size = new System.Drawing.Size(186, 681);
+            this.flomenu.Size = new System.Drawing.Size(183, 626);
             this.flomenu.TabIndex = 8;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.Location = new System.Drawing.Point(3, 205);
+            this.button7.Name = "button7";
+            this.button7.Padding = new System.Windows.Forms.Padding(3);
+            this.button7.Size = new System.Drawing.Size(178, 42);
+            this.button7.TabIndex = 3;
+            this.button7.Text = "form";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // depsidebar
             // 
@@ -224,11 +246,9 @@
             this.depsidebar.Controls.Add(this.btnmalia);
             this.depsidebar.Controls.Add(this.btnadara);
             this.depsidebar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.depsidebar.Location = new System.Drawing.Point(878, 55);
-            this.depsidebar.MaximumSize = new System.Drawing.Size(225, 626);
-            this.depsidebar.MinimumSize = new System.Drawing.Size(0, 626);
+            this.depsidebar.Location = new System.Drawing.Point(879, 0);
             this.depsidebar.Name = "depsidebar";
-            this.depsidebar.Size = new System.Drawing.Size(0, 626);
+            this.depsidebar.Size = new System.Drawing.Size(0, 601);
             this.depsidebar.TabIndex = 11;
             // 
             // btnatsalat
@@ -335,6 +355,7 @@
             this.btntableg.TabIndex = 7;
             this.btntableg.Text = "قسم التبليغ";
             this.btntableg.UseVisualStyleBackColor = false;
+            this.btntableg.Click += new System.EventHandler(this.btntableg_Click_1);
             // 
             // btntadkek
             // 
@@ -411,113 +432,6 @@
             this.btnadara.Text = "قسم الادارة و الاسناد";
             this.btnadara.UseVisualStyleBackColor = false;
             // 
-            // settingsidebar
-            // 
-            this.settingsidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
-            this.settingsidebar.Controls.Add(this.button6);
-            this.settingsidebar.Controls.Add(this.button5);
-            this.settingsidebar.Controls.Add(this.button4);
-            this.settingsidebar.Controls.Add(this.button3);
-            this.settingsidebar.Controls.Add(this.button2);
-            this.settingsidebar.Controls.Add(this.button1);
-            this.settingsidebar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.settingsidebar.Location = new System.Drawing.Point(878, 55);
-            this.settingsidebar.MaximumSize = new System.Drawing.Size(225, 626);
-            this.settingsidebar.MinimumSize = new System.Drawing.Size(0, 601);
-            this.settingsidebar.Name = "settingsidebar";
-            this.settingsidebar.Size = new System.Drawing.Size(0, 626);
-            this.settingsidebar.TabIndex = 0;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button6.Location = new System.Drawing.Point(113, 160);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(107, 53);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button5.Location = new System.Drawing.Point(3, 160);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(107, 53);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button4.Location = new System.Drawing.Point(113, 63);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(107, 53);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button3.Location = new System.Drawing.Point(3, 63);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 53);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button2.Location = new System.Drawing.Point(113, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 53);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.Location = new System.Drawing.Point(3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 53);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // deptim
             // 
             this.deptim.Interval = 1;
@@ -551,7 +465,7 @@
             this.mainTabControl.Name = "mainTabControl";
             this.mainTabControl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.mainTabControl.SelectedTabPage = this.users;
-            this.mainTabControl.Size = new System.Drawing.Size(878, 626);
+            this.mainTabControl.Size = new System.Drawing.Size(881, 626);
             this.mainTabControl.TabIndex = 12;
             this.mainTabControl.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.users,
@@ -567,20 +481,167 @@
             this.users.Appearance.HeaderActive.Options.UseBackColor = true;
             this.users.Appearance.HeaderHotTracked.BackColor = System.Drawing.Color.White;
             this.users.Appearance.HeaderHotTracked.Options.UseBackColor = true;
-            this.users.Appearance.PageClient.BackColor = System.Drawing.Color.White;
+            this.users.Appearance.PageClient.BackColor = System.Drawing.Color.LightGray;
             this.users.Appearance.PageClient.Options.UseBackColor = true;
-            this.users.Controls.Add(this.hekmapanal);
-            this.users.Controls.Add(this.pichome);
+            this.users.Controls.Add(this.panel2);
+            this.users.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.users.Name = "users";
             this.users.ShowCloseButton = DevExpress.Utils.DefaultBoolean.False;
-            this.users.Size = new System.Drawing.Size(876, 601);
+            this.users.Size = new System.Drawing.Size(879, 601);
             this.users.Text = "الرئيسية";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Controls.Add(this.settingsidebar);
+            this.panel2.Controls.Add(this.depsidebar);
+            this.panel2.Controls.Add(this.pichome);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(879, 601);
+            this.panel2.TabIndex = 19;
+            // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(879, 601);
+            this.panel1.TabIndex = 17;
+            this.panel1.Visible = false;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // settingsidebar
+            // 
+            this.settingsidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            this.settingsidebar.Controls.Add(this.button9);
+            this.settingsidebar.Controls.Add(this.button10);
+            this.settingsidebar.Controls.Add(this.button11);
+            this.settingsidebar.Controls.Add(this.button12);
+            this.settingsidebar.Controls.Add(this.button13);
+            this.settingsidebar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.settingsidebar.Location = new System.Drawing.Point(879, 0);
+            this.settingsidebar.Name = "settingsidebar";
+            this.settingsidebar.Size = new System.Drawing.Size(0, 601);
+            this.settingsidebar.TabIndex = 17;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button9.Location = new System.Drawing.Point(114, 171);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(109, 78);
+            this.button9.TabIndex = 6;
+            this.button9.Text = "قسم التدقيق و الرقابة الداخلية";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button10.Location = new System.Drawing.Point(2, 87);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(109, 78);
+            this.button10.TabIndex = 5;
+            this.button10.Text = "قسم التخطيط و الموازنة       ";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button11.Location = new System.Drawing.Point(115, 87);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(109, 78);
+            this.button11.TabIndex = 4;
+            this.button11.Text = "  قسم التدريب  ";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button12.Location = new System.Drawing.Point(3, 3);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(109, 78);
+            this.button12.TabIndex = 3;
+            this.button12.Text = "  قسم المالية";
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(90)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button13.Location = new System.Drawing.Point(115, 3);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(109, 78);
+            this.button13.TabIndex = 2;
+            this.button13.Text = "قسم الادارة و الاسناد";
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // pichome
+            // 
+            this.pichome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pichome.ErrorImage = null;
+            this.pichome.Image = ((System.Drawing.Image)(resources.GetObject("pichome.Image")));
+            this.pichome.Location = new System.Drawing.Point(0, 0);
+            this.pichome.Name = "pichome";
+            this.pichome.Size = new System.Drawing.Size(879, 601);
+            this.pichome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pichome.TabIndex = 16;
+            this.pichome.TabStop = false;
+            this.pichome.Click += new System.EventHandler(this.pichome_Click);
+            // 
+            // pageadari
+            // 
+            this.pageadari.Controls.Add(this.label1);
+            this.pageadari.Name = "pageadari";
+            this.pageadari.Size = new System.Drawing.Size(879, 601);
+            this.pageadari.Text = "المعاون الاداري";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(406, 43);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(76, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "المعاون الاداري";
+            // 
+            // pagesetting
+            // 
+            this.pagesetting.Name = "pagesetting";
+            this.pagesetting.Size = new System.Drawing.Size(879, 601);
+            this.pagesetting.Text = "الاعدادت";
             // 
             // hekmapanal
             // 
             this.hekmapanal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.hekmapanal.Controls.Add(this.lebhekma);
-            this.hekmapanal.Location = new System.Drawing.Point(51, 3);
+            this.hekmapanal.Location = new System.Drawing.Point(148, 7);
             this.hekmapanal.Name = "hekmapanal";
             this.hekmapanal.Size = new System.Drawing.Size(777, 45);
             this.hekmapanal.TabIndex = 14;
@@ -597,45 +658,11 @@
             this.lebhekma.TabIndex = 0;
             this.lebhekma.Text = "ومن يتق الله يجعل له مخرجا";
             // 
-            // pichome
-            // 
-            this.pichome.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pichome.ErrorImage = null;
-            this.pichome.Image = ((System.Drawing.Image)(resources.GetObject("pichome.Image")));
-            this.pichome.Location = new System.Drawing.Point(0, 0);
-            this.pichome.Name = "pichome";
-            this.pichome.Size = new System.Drawing.Size(876, 601);
-            this.pichome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pichome.TabIndex = 16;
-            this.pichome.TabStop = false;
-            this.pichome.Click += new System.EventHandler(this.pichome_Click);
-            // 
-            // pageadari
-            // 
-            this.pageadari.Controls.Add(this.label1);
-            this.pageadari.Name = "pageadari";
-            this.pageadari.Size = new System.Drawing.Size(876, 601);
-            this.pageadari.Text = "المعاون الاداري";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(406, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "المعاون الاداري";
-            // 
-            // pagesetting
-            // 
-            this.pagesetting.Name = "pagesetting";
-            this.pagesetting.Size = new System.Drawing.Size(876, 601);
-            this.pagesetting.Text = "الاعدادت";
-            // 
             // hedpanal
             // 
             this.hedpanal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(65)))), ((int)(((byte)(51)))));
             this.hedpanal.Controls.Add(this.lebadmin);
+            this.hedpanal.Controls.Add(this.hekmapanal);
             this.hedpanal.Controls.Add(this.btnmin);
             this.hedpanal.Controls.Add(this.btnclose);
             this.hedpanal.Location = new System.Drawing.Point(0, 3);
@@ -705,8 +732,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 681);
             this.Controls.Add(this.mainTabControl);
-            this.Controls.Add(this.settingsidebar);
-            this.Controls.Add(this.depsidebar);
             this.Controls.Add(this.flomenu);
             this.Controls.Add(this.homepanal1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -719,15 +744,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.picmenu)).EndInit();
             this.flomenu.ResumeLayout(false);
             this.depsidebar.ResumeLayout(false);
-            this.settingsidebar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.mainTabControl)).EndInit();
             this.mainTabControl.ResumeLayout(false);
             this.users.ResumeLayout(false);
-            this.hekmapanal.ResumeLayout(false);
-            this.hekmapanal.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.settingsidebar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pichome)).EndInit();
             this.pageadari.ResumeLayout(false);
             this.pageadari.PerformLayout();
+            this.hekmapanal.ResumeLayout(false);
+            this.hekmapanal.PerformLayout();
             this.hedpanal.ResumeLayout(false);
             this.hedpanal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnmin)).EndInit();
@@ -747,7 +773,6 @@
         private System.Windows.Forms.Timer menutim;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.FlowLayoutPanel flomenu;
-        private System.Windows.Forms.Panel depsidebar;
         private System.Windows.Forms.Timer deptim;
         private System.Windows.Forms.Button btnadara;
         private System.Windows.Forms.Button btnmalia;
@@ -774,13 +799,16 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pichome;
         private DevExpress.XtraTab.XtraTabPage pagesetting;
-        private System.Windows.Forms.Panel settingsidebar;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Timer settingtim;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel settingsidebar;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        public System.Windows.Forms.Panel depsidebar;
     }
 }
