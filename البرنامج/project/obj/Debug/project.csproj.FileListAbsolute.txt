@@ -160,3 +160,563 @@ C:\Users\Administrator\Desktop\New folder\البرنامج\project\obj\Debug\pro
 C:\Users\Administrator\Desktop\New folder\البرنامج\project\obj\Debug\project.exe
 C:\Users\Administrator\Desktop\New folder\البرنامج\project\obj\Debug\project.pdb
 C:\Users\Administrator\Desktop\New folder\البرنامج\project\obj\Debug\project.csprojResolveAssemblyReference.cache
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\project.exe.config
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\obj\Debug\project.exe
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\obj\Debug\project.pdb
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\project.exe
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\project.pdb
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Data.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Utils.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\MaterialSkin.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\obj\Debug\project.csprojResolveAssemblyReference.cache
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\obj\Debug\project.login.resources
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\obj\Debug\project.home.resources
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\obj\Debug\project.Form3.resources
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\obj\Debug\project.Properties.Resources.resources
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\obj\Debug\project.csproj.GenerateResource.Cache
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\obj\Debug\project.Form4.resources
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Dialogs.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraDialogs.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraDialogs.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\project.exe.config
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\project.exe
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\project.pdb
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\MaterialSkin.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.XtraDialogs.v20.1.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.Form4.resources
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.login.resources
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.home.resources
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.Form3.resources
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.Properties.Resources.resources
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.csproj.GenerateResource.cache
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.csproj.Up2Date
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.exe
+C:\Users\Lenovo\OneDrive\سطح المكتب\البرنامج - Copy\project\obj\Debug\project.pdb
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\project.exe.config
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\obj\Debug\project.exe
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\obj\Debug\project.pdb
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\project.exe
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\project.pdb
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Data.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Dialogs.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Utils.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraDialogs.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\MaterialSkin.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraDialogs.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\obj\Debug\project.csprojResolveAssemblyReference.cache
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\obj\Debug\project.Form4.resources
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\obj\Debug\project.login.resources
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\obj\Debug\project.home.resources
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\obj\Debug\project.Form3.resources
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\obj\Debug\project.Properties.Resources.resources
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\obj\Debug\project.csproj.GenerateResource.Cache
+C:\Users\saad\OneDrive\Desktop\برامج التصميم\البرنامج - hh\project\obj\Debug\project.exe.licenses
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\project.exe.config
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\obj\Debug\project.exe
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\obj\Debug\project.pdb
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\project.exe
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\project.pdb
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Data.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Dialogs.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Utils.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraDialogs.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\MaterialSkin.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraDialogs.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\obj\Debug\project.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\obj\Debug\project.Form4.resources
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\obj\Debug\project.login.resources
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\obj\Debug\project.home.resources
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\obj\Debug\project.Form3.resources
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\obj\Debug\project.Properties.Resources.resources
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\obj\Debug\project.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج - hh\project\obj\Debug\project.exe.licenses
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\project.exe.config
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\obj\Debug\project.exe
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\obj\Debug\project.pdb
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\project.exe
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\project.pdb
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Data.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Dialogs.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Utils.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraDialogs.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\MaterialSkin.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraDialogs.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\obj\Debug\project.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\obj\Debug\project.Form4.resources
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\obj\Debug\project.login.resources
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\obj\Debug\project.home.resources
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\obj\Debug\project.Form3.resources
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\obj\Debug\project.Properties.Resources.resources
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\obj\Debug\project.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\New folder (3)\البرنامج\project\obj\Debug\project.exe.licenses
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.Dialogs.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraDialogs.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraDialogs.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\de\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\es\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ja\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ru\DevExpress.Dialogs.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.Form4.resources
+C:\Users\Administrator\Desktop\New folder (5)\program\البرنامج\project\obj\Debug\project.exe.licenses
